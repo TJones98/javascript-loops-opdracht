@@ -9,6 +9,12 @@
 
 // Tip: je kunt de .repeat() methode gebruiken om een karakter een n aantal keer te herhalen... Dit heb je nog niet geleerd, maar bekijk hiervoor dit MDN-artikel eens: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 // ==========================================
+console.log("Opdracht 1:")
+const star = "*"
+
+for (let i = 0; i < 6; i++) {
+    console.log(star.repeat(i))
+}
 
 
 // ==========================================
@@ -20,6 +26,7 @@
 // loop...
 // klaar!
 // ==========================================
+console.log()
 console.log("Opdracht 2:")
 
 const loop = "loop...\n"
