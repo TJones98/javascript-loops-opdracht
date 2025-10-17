@@ -10,8 +10,12 @@
 // Vergadering om 15:30
 // Vergadering om 17:00
 // ==========================================
-
+console.log(`Opdracht 1:`)
 const meetingTimes = ['09:00', '10:30', '14:00', '15:30', '17:00'];
+
+for (let i = 0; i < meetingTimes.length; i++) {
+    console.log(`Vergadering om ${meetingTimes[i]}`);
+}
 
 
 // ==========================================
@@ -24,8 +28,16 @@ const meetingTimes = ['09:00', '10:30', '14:00', '15:30', '17:00'];
 // Verwachtte uitkomst:
 // console.log(salaries) geeft [3360, 2467.5, 2940, 3675, 2940]
 // ==========================================
+console.log()
+console.log("Opdracht 2:")
 
 const salaries = [3200, 2350, 2800, 3500, 2800];
+
+for (let i = 0; i < salaries.length; i++) {
+    salaries[i] = salaries[i] + (salaries[i] * 0.05);
+}
+
+console.log(salaries);
 
 
 // ==========================================
